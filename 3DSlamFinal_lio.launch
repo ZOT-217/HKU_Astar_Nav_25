@@ -1,0 +1,14 @@
+<launch>
+    <!-- <include file="$(find bot_sim)/launch_real/real_robot_transform.launch" /> -->
+    <include file="$(find livox_ros_driver2)/launch_ROS1/msg_mixed.launch" />
+    <!-- <include file="$(find bot_sim)/launch_real/lidar_filter.launch" /> -->
+    <include file="$(find bot_sim)/launch_real/lidar_merge_pointcloud.launch" />
+    <!-- <include file="$(find bot_sim)/launch_real/imu_filter.launch" /> -->
+    <!-- <include file="$(find bot_sim)/launch_real/3D22D.launch" /> -->
+    <include file="$(find point_lio)/launch/mapping_avia.launch" />
+    <!-- <include file="$(find bot_sim)/launch_real/dbscan_bfs_3D.launch" /> -->
+    <!-- <include file="$(find pcd2pgm)/launch/pcd2pgm.launch" /> -->
+    <!-- <include file="$(find bot_sim)/launch_real/dstarlite.launch" /> -->
+    <!-- <include file="$(find bot_sim)/launch_real/ser2msg_tf.launch" /> -->
+
+</launch>

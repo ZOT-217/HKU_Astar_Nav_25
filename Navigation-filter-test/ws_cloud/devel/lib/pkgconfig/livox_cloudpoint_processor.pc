@@ -1,0 +1,8 @@
+prefix=/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/devel
+
+Name: livox_cloudpoint_processor
+Description: Description of livox_cloudpoint_processor
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_msgs pcl_ros pcl_conversions livox_ros_driver2 serial message_runtime

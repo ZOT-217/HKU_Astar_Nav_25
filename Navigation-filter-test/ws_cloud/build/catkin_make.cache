@@ -1,0 +1,2 @@
+livox_cloudpoint_processor
+-DCATKIN_DEVEL_PREFIX=/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/devel -DCMAKE_INSTALL_PREFIX=/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/install -G Unix Makefiles

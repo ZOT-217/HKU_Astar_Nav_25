@@ -1,0 +1,872 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/linuxbrew/.linuxbrew/bin/gcc-14 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/linuxbrew/.linuxbrew/bin/g++-14 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_29403/fast && /usr/bin/make  -f CMakeFiles/cmTC_29403.dir/build.make CMakeFiles/cmTC_29403.dir/build
+make[1]: Entering directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29403.dir/CMakeCCompilerABI.c.o
+/home/linuxbrew/.linuxbrew/bin/gcc-14   -v -o CMakeFiles/cmTC_29403.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/specs
+COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/gcc-14
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-14 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 14.1.0_1' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-multilib --enable-default-pie
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 14.1.0 (Homebrew GCC 14.1.0_1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_29403.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_29403.dir/'
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/cc1 -quiet -v -imultiarch x86_64-linux-gnu -iprefix /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/ /usr/local/share/cmake-3.22/Modules/CMakeCCompilerABI.c -isysroot /home/linuxbrew/.linuxbrew/nonexistent -idirafter /home/linuxbrew/.linuxbrew/include -idirafter /home/linuxbrew/.linuxbrew/opt/glibc/include -quiet -dumpdir CMakeFiles/cmTC_29403.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccwqKS4i.s
+GNU C17 (Homebrew GCC 14.1.0_1) version 14.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 14.1.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/local/include"
+ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed/x86_64-linux-gnu"
+ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../../../../x86_64-pc-linux-gnu/include"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed/x86_64-linux-gnu
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../include
+ /home/linuxbrew/.linuxbrew/include
+ /home/linuxbrew/.linuxbrew/opt/glibc/include
+End of search list.
+Compiler executable checksum: c501cd1a7bbca9519c1adf5a0f8c7da8
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_29403.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_29403.dir/'
+ as -v --64 -o CMakeFiles/cmTC_29403.dir/CMakeCCompilerABI.c.o /tmp/ccwqKS4i.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/
+LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_29403.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_29403.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_29403
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29403.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/gcc-14  -v -rdynamic CMakeFiles/cmTC_29403.dir/CMakeCCompilerABI.c.o -o cmTC_29403 
+Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/specs
+COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/gcc-14
+COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-14 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 14.1.0_1' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-multilib --enable-default-pie
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 14.1.0 (Homebrew GCC 14.1.0_1) 
+COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/
+LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_29403' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_29403.'
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrwQEuk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib/gcc/current -pie -o cmTC_29403 /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/Scrt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crtbeginS.o -nostdlib -L/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14 -L/home/linuxbrew/.linuxbrew/opt/glibc/lib -L/home/linuxbrew/.linuxbrew/lib/gcc/current -L/home/linuxbrew/.linuxbrew/lib CMakeFiles/cmTC_29403.dir/CMakeCCompilerABI.c.o -rpath /home/linuxbrew/.linuxbrew/lib -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crtendS.o /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crtn.o
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_29403.dir/build.make:99: cmTC_29403] Error 1
+make[1]: Leaving directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_29403/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d5aa6/fast && /usr/bin/make  -f CMakeFiles/cmTC_d5aa6.dir/build.make CMakeFiles/cmTC_d5aa6.dir/build
+make[1]: Entering directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d5aa6.dir/testCCompiler.c.o
+/home/linuxbrew/.linuxbrew/bin/gcc-14    -o CMakeFiles/cmTC_d5aa6.dir/testCCompiler.c.o -c /home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_d5aa6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5aa6.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/gcc-14 -rdynamic CMakeFiles/cmTC_d5aa6.dir/testCCompiler.c.o -o cmTC_d5aa6 
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_d5aa6.dir/build.make:99: cmTC_d5aa6] Error 1
+make[1]: Leaving directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_d5aa6/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/linuxbrew/.linuxbrew/bin/gcc-14 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/linuxbrew/.linuxbrew/bin/g++-14 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1c8f9/fast && /usr/bin/make  -f CMakeFiles/cmTC_1c8f9.dir/build.make CMakeFiles/cmTC_1c8f9.dir/build
+make[1]: Entering directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c8f9.dir/CMakeCCompilerABI.c.o
+/home/linuxbrew/.linuxbrew/bin/gcc-14   -v -o CMakeFiles/cmTC_1c8f9.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/specs
+COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/gcc-14
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-14 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 14.1.0_1' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-multilib --enable-default-pie
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 14.1.0 (Homebrew GCC 14.1.0_1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1c8f9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1c8f9.dir/'
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/cc1 -quiet -v -imultiarch x86_64-linux-gnu -iprefix /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/ /usr/local/share/cmake-3.22/Modules/CMakeCCompilerABI.c -isysroot /home/linuxbrew/.linuxbrew/nonexistent -idirafter /home/linuxbrew/.linuxbrew/include -idirafter /home/linuxbrew/.linuxbrew/opt/glibc/include -quiet -dumpdir CMakeFiles/cmTC_1c8f9.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccKxssr6.s
+GNU C17 (Homebrew GCC 14.1.0_1) version 14.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 14.1.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/local/include"
+ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed/x86_64-linux-gnu"
+ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../../../../x86_64-pc-linux-gnu/include"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed/x86_64-linux-gnu
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../include
+ /home/linuxbrew/.linuxbrew/include
+ /home/linuxbrew/.linuxbrew/opt/glibc/include
+End of search list.
+Compiler executable checksum: c501cd1a7bbca9519c1adf5a0f8c7da8
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1c8f9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1c8f9.dir/'
+ as -v --64 -o CMakeFiles/cmTC_1c8f9.dir/CMakeCCompilerABI.c.o /tmp/ccKxssr6.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/
+LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1c8f9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1c8f9.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_1c8f9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c8f9.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/gcc-14  -v -rdynamic CMakeFiles/cmTC_1c8f9.dir/CMakeCCompilerABI.c.o -o cmTC_1c8f9 
+Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/specs
+COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/gcc-14
+COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-14 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 14.1.0_1' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-multilib --enable-default-pie
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 14.1.0 (Homebrew GCC 14.1.0_1) 
+COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/
+LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1c8f9' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1c8f9.'
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccclVl8f.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib/gcc/current -pie -o cmTC_1c8f9 /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/Scrt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crtbeginS.o -nostdlib -L/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14 -L/home/linuxbrew/.linuxbrew/opt/glibc/lib -L/home/linuxbrew/.linuxbrew/lib/gcc/current -L/home/linuxbrew/.linuxbrew/lib CMakeFiles/cmTC_1c8f9.dir/CMakeCCompilerABI.c.o -rpath /home/linuxbrew/.linuxbrew/lib -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crtendS.o /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crtn.o
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_1c8f9.dir/build.make:99: cmTC_1c8f9] Error 1
+make[1]: Leaving directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_1c8f9/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_44532/fast && /usr/bin/make  -f CMakeFiles/cmTC_44532.dir/build.make CMakeFiles/cmTC_44532.dir/build
+make[1]: Entering directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44532.dir/testCCompiler.c.o
+/home/linuxbrew/.linuxbrew/bin/gcc-14    -o CMakeFiles/cmTC_44532.dir/testCCompiler.c.o -c /home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_44532
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44532.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/gcc-14 -rdynamic CMakeFiles/cmTC_44532.dir/testCCompiler.c.o -o cmTC_44532 
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_44532.dir/build.make:99: cmTC_44532] Error 1
+make[1]: Leaving directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_44532/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/linuxbrew/.linuxbrew/bin/gcc-14 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/linuxbrew/.linuxbrew/bin/g++-14 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b8186/fast && /usr/bin/make  -f CMakeFiles/cmTC_b8186.dir/build.make CMakeFiles/cmTC_b8186.dir/build
+make[1]: Entering directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8186.dir/CMakeCCompilerABI.c.o
+/home/linuxbrew/.linuxbrew/bin/gcc-14   -v -o CMakeFiles/cmTC_b8186.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/specs
+COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/gcc-14
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-14 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 14.1.0_1' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-multilib --enable-default-pie
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 14.1.0 (Homebrew GCC 14.1.0_1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b8186.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b8186.dir/'
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/cc1 -quiet -v -imultiarch x86_64-linux-gnu -iprefix /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/ /usr/local/share/cmake-3.22/Modules/CMakeCCompilerABI.c -isysroot /home/linuxbrew/.linuxbrew/nonexistent -idirafter /home/linuxbrew/.linuxbrew/include -idirafter /home/linuxbrew/.linuxbrew/opt/glibc/include -quiet -dumpdir CMakeFiles/cmTC_b8186.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccycy66N.s
+GNU C17 (Homebrew GCC 14.1.0_1) version 14.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 14.1.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/local/include"
+ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed/x86_64-linux-gnu"
+ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../../../../x86_64-pc-linux-gnu/include"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed/x86_64-linux-gnu
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../include
+ /home/linuxbrew/.linuxbrew/include
+ /home/linuxbrew/.linuxbrew/opt/glibc/include
+End of search list.
+Compiler executable checksum: c501cd1a7bbca9519c1adf5a0f8c7da8
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b8186.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b8186.dir/'
+ as -v --64 -o CMakeFiles/cmTC_b8186.dir/CMakeCCompilerABI.c.o /tmp/ccycy66N.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/
+LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b8186.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b8186.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_b8186
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8186.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/gcc-14  -v -rdynamic CMakeFiles/cmTC_b8186.dir/CMakeCCompilerABI.c.o -o cmTC_b8186 
+Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/specs
+COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/gcc-14
+COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-14 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 14.1.0_1' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-multilib --enable-default-pie
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 14.1.0 (Homebrew GCC 14.1.0_1) 
+COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/
+LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b8186' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b8186.'
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccabmuSu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib/gcc/current -pie -o cmTC_b8186 /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/Scrt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crtbeginS.o -nostdlib -L/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14 -L/home/linuxbrew/.linuxbrew/opt/glibc/lib -L/home/linuxbrew/.linuxbrew/lib/gcc/current -L/home/linuxbrew/.linuxbrew/lib CMakeFiles/cmTC_b8186.dir/CMakeCCompilerABI.c.o -rpath /home/linuxbrew/.linuxbrew/lib -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crtendS.o /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crtn.o
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_b8186.dir/build.make:99: cmTC_b8186] Error 1
+make[1]: Leaving directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_b8186/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ae931/fast && /usr/bin/make  -f CMakeFiles/cmTC_ae931.dir/build.make CMakeFiles/cmTC_ae931.dir/build
+make[1]: Entering directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae931.dir/testCCompiler.c.o
+/home/linuxbrew/.linuxbrew/bin/gcc-14    -o CMakeFiles/cmTC_ae931.dir/testCCompiler.c.o -c /home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ae931
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae931.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/gcc-14 -rdynamic CMakeFiles/cmTC_ae931.dir/testCCompiler.c.o -o cmTC_ae931 
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_ae931.dir/build.make:99: cmTC_ae931] Error 1
+make[1]: Leaving directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_ae931/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/linuxbrew/.linuxbrew/bin/gcc-14 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/linuxbrew/.linuxbrew/bin/g++-14 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7c5ca/fast && /usr/bin/make  -f CMakeFiles/cmTC_7c5ca.dir/build.make CMakeFiles/cmTC_7c5ca.dir/build
+make[1]: Entering directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7c5ca.dir/CMakeCCompilerABI.c.o
+/home/linuxbrew/.linuxbrew/bin/gcc-14   -v -o CMakeFiles/cmTC_7c5ca.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/specs
+COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/gcc-14
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-14 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 14.1.0_1' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-multilib --enable-default-pie
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 14.1.0 (Homebrew GCC 14.1.0_1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7c5ca.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7c5ca.dir/'
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/cc1 -quiet -v -imultiarch x86_64-linux-gnu -iprefix /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/ /usr/local/share/cmake-3.22/Modules/CMakeCCompilerABI.c -isysroot /home/linuxbrew/.linuxbrew/nonexistent -idirafter /home/linuxbrew/.linuxbrew/include -idirafter /home/linuxbrew/.linuxbrew/opt/glibc/include -quiet -dumpdir CMakeFiles/cmTC_7c5ca.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/cci0GZag.s
+GNU C17 (Homebrew GCC 14.1.0_1) version 14.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 14.1.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/local/include"
+ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed/x86_64-linux-gnu"
+ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../../../../x86_64-pc-linux-gnu/include"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed/x86_64-linux-gnu
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../include
+ /home/linuxbrew/.linuxbrew/include
+ /home/linuxbrew/.linuxbrew/opt/glibc/include
+End of search list.
+Compiler executable checksum: c501cd1a7bbca9519c1adf5a0f8c7da8
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7c5ca.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7c5ca.dir/'
+ as -v --64 -o CMakeFiles/cmTC_7c5ca.dir/CMakeCCompilerABI.c.o /tmp/cci0GZag.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/
+LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7c5ca.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7c5ca.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_7c5ca
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c5ca.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/gcc-14  -v -rdynamic CMakeFiles/cmTC_7c5ca.dir/CMakeCCompilerABI.c.o -o cmTC_7c5ca 
+Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/specs
+COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/gcc-14
+COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-14 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 14.1.0_1' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-multilib --enable-default-pie
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 14.1.0 (Homebrew GCC 14.1.0_1) 
+COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/
+LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7c5ca' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7c5ca.'
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpx251P.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib/gcc/current -pie -o cmTC_7c5ca /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/Scrt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crtbeginS.o -nostdlib -L/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14 -L/home/linuxbrew/.linuxbrew/opt/glibc/lib -L/home/linuxbrew/.linuxbrew/lib/gcc/current -L/home/linuxbrew/.linuxbrew/lib CMakeFiles/cmTC_7c5ca.dir/CMakeCCompilerABI.c.o -rpath /home/linuxbrew/.linuxbrew/lib -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crtendS.o /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crtn.o
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_7c5ca.dir/build.make:99: cmTC_7c5ca] Error 1
+make[1]: Leaving directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_7c5ca/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b3e72/fast && /usr/bin/make  -f CMakeFiles/cmTC_b3e72.dir/build.make CMakeFiles/cmTC_b3e72.dir/build
+make[1]: Entering directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3e72.dir/testCCompiler.c.o
+/home/linuxbrew/.linuxbrew/bin/gcc-14    -o CMakeFiles/cmTC_b3e72.dir/testCCompiler.c.o -c /home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_b3e72
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3e72.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/gcc-14 -rdynamic CMakeFiles/cmTC_b3e72.dir/testCCompiler.c.o -o cmTC_b3e72 
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_b3e72.dir/build.make:99: cmTC_b3e72] Error 1
+make[1]: Leaving directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_b3e72/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/linuxbrew/.linuxbrew/bin/gcc-14 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/linuxbrew/.linuxbrew/bin/g++-14 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fe5bc/fast && /usr/bin/make  -f CMakeFiles/cmTC_fe5bc.dir/build.make CMakeFiles/cmTC_fe5bc.dir/build
+make[1]: Entering directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fe5bc.dir/CMakeCCompilerABI.c.o
+/home/linuxbrew/.linuxbrew/bin/gcc-14   -v -o CMakeFiles/cmTC_fe5bc.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/specs
+COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/gcc-14
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-14 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 14.1.0_1' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-multilib --enable-default-pie
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 14.1.0 (Homebrew GCC 14.1.0_1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fe5bc.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fe5bc.dir/'
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/cc1 -quiet -v -imultiarch x86_64-linux-gnu -iprefix /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/ /usr/local/share/cmake-3.22/Modules/CMakeCCompilerABI.c -isysroot /home/linuxbrew/.linuxbrew/nonexistent -idirafter /home/linuxbrew/.linuxbrew/include -idirafter /home/linuxbrew/.linuxbrew/opt/glibc/include -quiet -dumpdir CMakeFiles/cmTC_fe5bc.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccj8gOVI.s
+GNU C17 (Homebrew GCC 14.1.0_1) version 14.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 14.1.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/local/include"
+ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed/x86_64-linux-gnu"
+ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../../../../x86_64-pc-linux-gnu/include"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed/x86_64-linux-gnu
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../include
+ /home/linuxbrew/.linuxbrew/include
+ /home/linuxbrew/.linuxbrew/opt/glibc/include
+End of search list.
+Compiler executable checksum: c501cd1a7bbca9519c1adf5a0f8c7da8
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fe5bc.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fe5bc.dir/'
+ as -v --64 -o CMakeFiles/cmTC_fe5bc.dir/CMakeCCompilerABI.c.o /tmp/ccj8gOVI.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/
+LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fe5bc.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fe5bc.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_fe5bc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe5bc.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/gcc-14  -v -rdynamic CMakeFiles/cmTC_fe5bc.dir/CMakeCCompilerABI.c.o -o cmTC_fe5bc 
+Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/specs
+COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/gcc-14
+COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-14 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 14.1.0_1' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-multilib --enable-default-pie
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 14.1.0 (Homebrew GCC 14.1.0_1) 
+COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/
+LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_fe5bc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_fe5bc.'
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRzkJ7r.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib/gcc/current -pie -o cmTC_fe5bc /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/Scrt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crtbeginS.o -nostdlib -L/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14 -L/home/linuxbrew/.linuxbrew/opt/glibc/lib -L/home/linuxbrew/.linuxbrew/lib/gcc/current -L/home/linuxbrew/.linuxbrew/lib CMakeFiles/cmTC_fe5bc.dir/CMakeCCompilerABI.c.o -rpath /home/linuxbrew/.linuxbrew/lib -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crtendS.o /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crtn.o
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_fe5bc.dir/build.make:99: cmTC_fe5bc] Error 1
+make[1]: Leaving directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_fe5bc/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c5085/fast && /usr/bin/make  -f CMakeFiles/cmTC_c5085.dir/build.make CMakeFiles/cmTC_c5085.dir/build
+make[1]: Entering directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5085.dir/testCCompiler.c.o
+/home/linuxbrew/.linuxbrew/bin/gcc-14    -o CMakeFiles/cmTC_c5085.dir/testCCompiler.c.o -c /home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_c5085
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5085.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/gcc-14 -rdynamic CMakeFiles/cmTC_c5085.dir/testCCompiler.c.o -o cmTC_c5085 
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_c5085.dir/build.make:99: cmTC_c5085] Error 1
+make[1]: Leaving directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_c5085/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/linuxbrew/.linuxbrew/bin/gcc-14 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/linuxbrew/.linuxbrew/bin/g++-14 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c709c/fast && /usr/bin/make  -f CMakeFiles/cmTC_c709c.dir/build.make CMakeFiles/cmTC_c709c.dir/build
+make[1]: Entering directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c709c.dir/CMakeCCompilerABI.c.o
+/home/linuxbrew/.linuxbrew/bin/gcc-14   -v -o CMakeFiles/cmTC_c709c.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/specs
+COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/gcc-14
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-14 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 14.1.0_1' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-multilib --enable-default-pie
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 14.1.0 (Homebrew GCC 14.1.0_1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c709c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c709c.dir/'
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/cc1 -quiet -v -imultiarch x86_64-linux-gnu -iprefix /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/ /usr/local/share/cmake-3.22/Modules/CMakeCCompilerABI.c -isysroot /home/linuxbrew/.linuxbrew/nonexistent -idirafter /home/linuxbrew/.linuxbrew/include -idirafter /home/linuxbrew/.linuxbrew/opt/glibc/include -quiet -dumpdir CMakeFiles/cmTC_c709c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/cckk2kAW.s
+GNU C17 (Homebrew GCC 14.1.0_1) version 14.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 14.1.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/local/include"
+ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed/x86_64-linux-gnu"
+ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../../../../x86_64-pc-linux-gnu/include"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed/x86_64-linux-gnu
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../include
+ /home/linuxbrew/.linuxbrew/include
+ /home/linuxbrew/.linuxbrew/opt/glibc/include
+End of search list.
+Compiler executable checksum: c501cd1a7bbca9519c1adf5a0f8c7da8
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c709c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c709c.dir/'
+ as -v --64 -o CMakeFiles/cmTC_c709c.dir/CMakeCCompilerABI.c.o /tmp/cckk2kAW.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/
+LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c709c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c709c.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_c709c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c709c.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/gcc-14  -v -rdynamic CMakeFiles/cmTC_c709c.dir/CMakeCCompilerABI.c.o -o cmTC_c709c 
+Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/specs
+COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/gcc-14
+COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-14 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 14.1.0_1' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-multilib --enable-default-pie
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 14.1.0 (Homebrew GCC 14.1.0_1) 
+COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/
+LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c709c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c709c.'
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAlU7n4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib/gcc/current -pie -o cmTC_c709c /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/Scrt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crtbeginS.o -nostdlib -L/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14 -L/home/linuxbrew/.linuxbrew/opt/glibc/lib -L/home/linuxbrew/.linuxbrew/lib/gcc/current -L/home/linuxbrew/.linuxbrew/lib CMakeFiles/cmTC_c709c.dir/CMakeCCompilerABI.c.o -rpath /home/linuxbrew/.linuxbrew/lib -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crtendS.o /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crtn.o
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_c709c.dir/build.make:99: cmTC_c709c] Error 1
+make[1]: Leaving directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_c709c/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9b5b1/fast && /usr/bin/make  -f CMakeFiles/cmTC_9b5b1.dir/build.make CMakeFiles/cmTC_9b5b1.dir/build
+make[1]: Entering directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9b5b1.dir/testCCompiler.c.o
+/home/linuxbrew/.linuxbrew/bin/gcc-14    -o CMakeFiles/cmTC_9b5b1.dir/testCCompiler.c.o -c /home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_9b5b1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b5b1.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/gcc-14 -rdynamic CMakeFiles/cmTC_9b5b1.dir/testCCompiler.c.o -o cmTC_9b5b1 
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_9b5b1.dir/build.make:99: cmTC_9b5b1] Error 1
+make[1]: Leaving directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_9b5b1/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/linuxbrew/.linuxbrew/bin/gcc-14 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/linuxbrew/.linuxbrew/bin/g++-14 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ef3ad/fast && /usr/bin/make  -f CMakeFiles/cmTC_ef3ad.dir/build.make CMakeFiles/cmTC_ef3ad.dir/build
+make[1]: Entering directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef3ad.dir/CMakeCCompilerABI.c.o
+/home/linuxbrew/.linuxbrew/bin/gcc-14   -v -o CMakeFiles/cmTC_ef3ad.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/specs
+COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/gcc-14
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-14 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 14.1.0_1' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-multilib --enable-default-pie
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 14.1.0 (Homebrew GCC 14.1.0_1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ef3ad.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ef3ad.dir/'
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/cc1 -quiet -v -imultiarch x86_64-linux-gnu -iprefix /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/ /usr/local/share/cmake-3.22/Modules/CMakeCCompilerABI.c -isysroot /home/linuxbrew/.linuxbrew/nonexistent -idirafter /home/linuxbrew/.linuxbrew/include -idirafter /home/linuxbrew/.linuxbrew/opt/glibc/include -quiet -dumpdir CMakeFiles/cmTC_ef3ad.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/cc0NcxM6.s
+GNU C17 (Homebrew GCC 14.1.0_1) version 14.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 14.1.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/local/include"
+ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed/x86_64-linux-gnu"
+ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../../../../x86_64-pc-linux-gnu/include"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed/x86_64-linux-gnu
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../include
+ /home/linuxbrew/.linuxbrew/include
+ /home/linuxbrew/.linuxbrew/opt/glibc/include
+End of search list.
+Compiler executable checksum: c501cd1a7bbca9519c1adf5a0f8c7da8
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ef3ad.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ef3ad.dir/'
+ as -v --64 -o CMakeFiles/cmTC_ef3ad.dir/CMakeCCompilerABI.c.o /tmp/cc0NcxM6.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/
+LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ef3ad.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ef3ad.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_ef3ad
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef3ad.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/gcc-14  -v -rdynamic CMakeFiles/cmTC_ef3ad.dir/CMakeCCompilerABI.c.o -o cmTC_ef3ad 
+Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/specs
+COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/gcc-14
+COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-14 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 14.1.0_1' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-multilib --enable-default-pie
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 14.1.0 (Homebrew GCC 14.1.0_1) 
+COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/
+LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ef3ad' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ef3ad.'
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxekqey.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib/gcc/current -pie -o cmTC_ef3ad /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/Scrt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crtbeginS.o -nostdlib -L/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14 -L/home/linuxbrew/.linuxbrew/opt/glibc/lib -L/home/linuxbrew/.linuxbrew/lib/gcc/current -L/home/linuxbrew/.linuxbrew/lib CMakeFiles/cmTC_ef3ad.dir/CMakeCCompilerABI.c.o -rpath /home/linuxbrew/.linuxbrew/lib -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crtendS.o /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crtn.o
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_ef3ad.dir/build.make:99: cmTC_ef3ad] Error 1
+make[1]: Leaving directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_ef3ad/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d1afe/fast && /usr/bin/make  -f CMakeFiles/cmTC_d1afe.dir/build.make CMakeFiles/cmTC_d1afe.dir/build
+make[1]: Entering directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d1afe.dir/testCCompiler.c.o
+/home/linuxbrew/.linuxbrew/bin/gcc-14    -o CMakeFiles/cmTC_d1afe.dir/testCCompiler.c.o -c /home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_d1afe
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1afe.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/gcc-14 -rdynamic CMakeFiles/cmTC_d1afe.dir/testCCompiler.c.o -o cmTC_d1afe 
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_d1afe.dir/build.make:99: cmTC_d1afe] Error 1
+make[1]: Leaving directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_d1afe/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/linuxbrew/.linuxbrew/bin/gcc-14 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/linuxbrew/.linuxbrew/bin/g++-14 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4fa5e/fast && /usr/bin/make  -f CMakeFiles/cmTC_4fa5e.dir/build.make CMakeFiles/cmTC_4fa5e.dir/build
+make[1]: Entering directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4fa5e.dir/CMakeCCompilerABI.c.o
+/home/linuxbrew/.linuxbrew/bin/gcc-14   -v -o CMakeFiles/cmTC_4fa5e.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/specs
+COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/gcc-14
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-14 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 14.1.0_1' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-multilib --enable-default-pie
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 14.1.0 (Homebrew GCC 14.1.0_1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4fa5e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4fa5e.dir/'
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/cc1 -quiet -v -imultiarch x86_64-linux-gnu -iprefix /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/ /usr/local/share/cmake-3.22/Modules/CMakeCCompilerABI.c -isysroot /home/linuxbrew/.linuxbrew/nonexistent -idirafter /home/linuxbrew/.linuxbrew/include -idirafter /home/linuxbrew/.linuxbrew/opt/glibc/include -quiet -dumpdir CMakeFiles/cmTC_4fa5e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccFDt770.s
+GNU C17 (Homebrew GCC 14.1.0_1) version 14.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 14.1.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/local/include"
+ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed/x86_64-linux-gnu"
+ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../../../../x86_64-pc-linux-gnu/include"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed/x86_64-linux-gnu
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/include-fixed
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/../../../../include
+ /home/linuxbrew/.linuxbrew/include
+ /home/linuxbrew/.linuxbrew/opt/glibc/include
+End of search list.
+Compiler executable checksum: c501cd1a7bbca9519c1adf5a0f8c7da8
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4fa5e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4fa5e.dir/'
+ as -v --64 -o CMakeFiles/cmTC_4fa5e.dir/CMakeCCompilerABI.c.o /tmp/ccFDt770.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/
+LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4fa5e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4fa5e.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_4fa5e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fa5e.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/gcc-14  -v -rdynamic CMakeFiles/cmTC_4fa5e.dir/CMakeCCompilerABI.c.o -o cmTC_4fa5e 
+Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/specs
+COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/gcc-14
+COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-14 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 14.1.0_1' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-multilib --enable-default-pie
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 14.1.0 (Homebrew GCC 14.1.0_1) 
+COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/
+LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_4fa5e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4fa5e.'
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccB3WftQ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib/gcc/current -pie -o cmTC_4fa5e /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/Scrt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crtbeginS.o -nostdlib -L/home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14 -L/home/linuxbrew/.linuxbrew/opt/glibc/lib -L/home/linuxbrew/.linuxbrew/lib/gcc/current -L/home/linuxbrew/.linuxbrew/lib CMakeFiles/cmTC_4fa5e.dir/CMakeCCompilerABI.c.o -rpath /home/linuxbrew/.linuxbrew/lib -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crtendS.o /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/14/crtn.o
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_4fa5e.dir/build.make:99: cmTC_4fa5e] Error 1
+make[1]: Leaving directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_4fa5e/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_12a72/fast && /usr/bin/make  -f CMakeFiles/cmTC_12a72.dir/build.make CMakeFiles/cmTC_12a72.dir/build
+make[1]: Entering directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12a72.dir/testCCompiler.c.o
+/home/linuxbrew/.linuxbrew/bin/gcc-14    -o CMakeFiles/cmTC_12a72.dir/testCCompiler.c.o -c /home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_12a72
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12a72.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/gcc-14 -rdynamic CMakeFiles/cmTC_12a72.dir/testCCompiler.c.o -o cmTC_12a72 
+/usr/bin/ld: /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so: error loading plugin: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /home/linuxbrew/.linuxbrew/Cellar/gcc/14.1.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/14/liblto_plugin.so)
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_12a72.dir/build.make:99: cmTC_12a72] Error 1
+make[1]: Leaving directory '/home/sentry_train_test/AstarTraining/Navigation-filter-test/ws_cloud/src/livox_cloudpoint_processor/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_12a72/fast] Error 2
+
+
+
